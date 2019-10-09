@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Servidor: 127.0.0.1
+- Tiempo de generación: 09-10-2019 a las 07:27:17
+- Versión del servidor: 10.1.37-MariaDB
+- Versión de PHP: 7.3.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="desarrollo" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="contacto">
+                CREATE TABLE `contacto` (
+                  `Id` int(11) NOT NULL AUTO_INCREMENT,
+                  `Nombre` varchar(20) NOT NULL,
+                  `Asunto` varchar(20) NOT NULL,
+                  `Correo` varchar(20) NOT NULL,
+                  `Mensaje` varchar(20) NOT NULL,
+                  PRIMARY KEY (`Id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'desarrollo'
+    -->
+    <database name="desarrollo">
+        <!-- Tabla contacto -->
+        <table name="contacto">
+            <column name="Id">1</column>
+            <column name="Nombre">Keys</column>
+            <column name="Asunto">Prueba</column>
+            <column name="Correo">0</column>
+            <column name="Mensaje">asdkjaslkdjasl</column>
+        </table>
+        <table name="contacto">
+            <column name="Id">2</column>
+            <column name="Nombre">Keys</column>
+            <column name="Asunto">Prueba</column>
+            <column name="Correo">0</column>
+            <column name="Mensaje">asdkjaslkdjasl</column>
+        </table>
+        <table name="contacto">
+            <column name="Id">3</column>
+            <column name="Nombre">Diego</column>
+            <column name="Asunto">Prueba</column>
+            <column name="Correo">dj_2425_gomez@hotmai</column>
+            <column name="Mensaje">Hola</column>
+        </table>
+        <table name="contacto">
+            <column name="Id">4</column>
+            <column name="Nombre">Keys</column>
+            <column name="Asunto">Prueba</column>
+            <column name="Correo">soccerplay.fifa@gmai</column>
+            <column name="Mensaje">adasdasdasd</column>
+        </table>
+        <table name="contacto">
+            <column name="Id">5</column>
+            <column name="Nombre">Keys</column>
+            <column name="Asunto">sadasd</column>
+            <column name="Correo">asdas@gmail.com</column>
+            <column name="Mensaje">asdasd</column>
+        </table>
+    </database>
+</pma_xml_export>
