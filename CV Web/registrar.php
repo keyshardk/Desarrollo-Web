@@ -17,8 +17,8 @@ if (!$conn)
 
  $result = mysqli_query($conn,$sql);
 
-echo "Contacto Guardado, En breve me estare Comunicando";
+//echo "Contacto Guardado, En breve me estare Comunicando";
 
-//header ("location: index.html");
+header ("location: correo.html");
 
 ?>
